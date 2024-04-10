@@ -1,0 +1,22 @@
+.background{
+    font-family: 'Poppins','sans-serif';
+    height:97vh;
+    position:relative;
+    background : url("../Cover.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(2px);
+}
+.pos{
+    position:absolute;
+    width:100%;
+    /* height:100vh; */
+    top:50%;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 0;
+    color: #c4215d;
+    font-size:20px;
+    text-align: center;
+
+}
